@@ -1,0 +1,79 @@
+@font-face {
+    font-family: BYekan;
+    font-weight: normal;
+    src: url('../font/Yekan\ Bakh\ Regular.ttf');
+}
+
+* {
+    font-family: BYekan !important;
+    direction: rtl;
+}
+body{
+    background: #F5F7FA;
+}
+/*header-------------------------------------------------------------------------------------*/
+header {
+    background-color: #1FC5B9;
+}
+
+.navbar--paddingtop {
+    padding-top: 5%;
+}
+
+.av__li__a--style,
+.av__li__a--style:hover {
+    color: #FAFAFA;
+}
+
+.avbar-collapse {
+    direction: rtl;
+}
+
+.navbar-toggler {
+    border: 1px solid white !important;
+    border-radius: 5px;
+}
+
+.navbar-toggler:hover {
+    box-shadow: none;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar__button--vorod {
+    color: white;
+}
+
+.navbar__button--sabtenam {
+    color: white;
+    border-radius: 18px;
+    width: 100%;
+    background: #03343224;
+}
+
+.navbar__button--vorod:hover,
+.navbar__button--sabtenam:hover {
+    color: white;
+}
+
+.header__p--title {
+    color: white;
+    font-size: 3rem;
+    width: 100%;
+    font-weight: bold;
+}
+
+.header__p--description {
+    color: white;
+}
+
+.header__title--style {
+    padding-right: 7%;
+}
+.container-style--header {
+    max-width: 55rem;
+}
+
+/*header-------------------------------------------------------------------------------------*/

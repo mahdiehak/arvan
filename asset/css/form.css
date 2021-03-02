@@ -1,0 +1,28 @@
+.container-style {
+    max-width: 45rem;
+    padding: 5rem 0px;
+}
+.container-style--form{
+    max-width: 45rem;
+    margin: 5rem auto;
+    padding: 3rem 2rem;
+    background: white;
+    border-radius: 16px;
+}
+.form__input{
+    border: 1px solid #DBE4F2;
+    border-radius: 12px;
+}
+.row--first{
+    background: #F5F7FA;
+    border-radius: 16px;
+}
+.form__p--title{
+    border-right: 2px solid #20C5BA;
+    color: #155A6D;
+    font-weight: bold;
+}
+.form__input__lable{
+    color:#585858;
+    font-size: 15px;
+}

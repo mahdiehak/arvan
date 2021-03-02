@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/bootstrap-5.0.0-beta1/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="asset/css/header.css">
+    <link rel="stylesheet" href="asset/css/form.css">
+    <link rel="stylesheet" href="asset/swiper-5.4.5/package/css/swiper.min.css">
+
+</head>
+
+<body>
+<header>
+    <section>
+        <div class="container container-style--header ">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light  navbar--paddingtop">
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <img src="asset/image/logo.png" alt="log" width="100%">
+                            </div>
+                            <div class="col-md-11">
+                                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link  text-white" aria-current="page" href="#">محصولات</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#">بازارچه</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#">مستندات</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#">زیست بوم</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-white" href="#">قیمت</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-4">
+                                <button type="button" class="btn navbar__button--vorod">ورود</button>
+                            </div>
+                            <div class="col-5">
+                                <button type="button" class="btn navbar__button--sabtenam">ثبت نام</button>
+                            </div>
+                            <div class="col-3 d-flex align-items-center">
+                                <img src="asset/image/phone.png" alt="phone">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-block d-sm-block d-md-block d-lg-none">
+                        <div class="row">
+                            <div class="col-9"><a class="navbar-brand" href="#">Navbar</a></div>
+                            <div class="col-3"> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button></div>
+                        </div>
+                    </div>
+
+                </nav>
+                <div class="col-md-12">
+                    <div class="row">
+                        <dv class="col-md-7 d-table my-auto header__title--style">
+                            <p class="header__p--title">شبکه ابریارهای آروان</p>
+                            <p class="header__p--description">ArvanCloud Partner Network</p>
+                        </dv>
+                        <div class="col-md-5">
+                            <img src="asset/image/index_img.png" alt="" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+
+
+<!--form--------------------------------------------------------------------------------------->
+<div class="container container-style--form">
+    <p>فرم ثبت نام شبکه ابریارهای آروان</p>
+    <p>.در صورتی که مایل باشید می‌توانید از برای ما رزومه بفرستید، لطفا فرم زیر را پر کنید</p>
+    <form>
+    <div class="row py-4 row--first">
+        <p class="form__p--title">اطلاعات فردی</p>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3 text-end">
+                            <label for="inputname" class="col-form-label form__input__lable">نام *</label>
+                        </div>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control form__input" id="inputname" placeholder="نام و نام خانوادگی">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3 text-end">
+                            <label for="inputnumber" class="col-form-label form__input__lable">تلفن *</label>
+                        </div>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control form__input" id="inputnumber" placeholder="0952654484">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3 text-end">
+                            <label for="inputemail" class="col-form-label form__input__lable">ایمیل *</label>
+                        </div>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control form__input" id="inputemail" placeholder="example@email.com">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3 text-end">
+                            <label for="inputcompany" class="col-form-label form__input__lable">نام شرکت</label>
+                        </div>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control form__input" id="inputcompany" placeholder="نام شرکت یا سازمان">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+    <div class="row py-4 row--first mt-3">
+        <p class="form__p--title">سوابق و تجربیات </p>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3 text-end">
+                            <label for="inputname" class="col-form-label form__input__lable">رزومه *</label>
+                        </div>
+                        <div class="col-md-9">
+
+                            <div class="input-group mb-3">
+                                <input type="file" class="form-control" id="inputGroupFile01">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3 text-end">
+                            <label for="potyofilio" class="col-form-label form__input__lable">پورتفولیو</label>
+                        </div>
+                        <div class="col-md-9">
+
+                            <div class="input-group mb-3">
+                                <input type="file" class="form-control" id="potyofilio">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+    <div class="row py-4 row--first mt-3">
+        <p class="form__p--title">توضیحات تکمیلی </p>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3 text-end">
+                            <label for="inputname" class="col-form-label form__input__lable">نوع ابریار</label>
+                        </div>
+                        <div class="col-md-9">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3 text-end">
+                            <label for="potyofilio" class="col-form-label form__input__lable">سطح ابریار</label>
+                        </div>
+                        <div class="col-md-9">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-1 text-end">
+                            <label for="potyofilio" class="col-form-label form__input__lable">سطح ابریار</label>
+                        </div>
+                        <div class="col-md-11">
+                            <textarea id="w3review" name="w3review" rows="4" cols="80">
+                            </textarea>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-9">
+                <p> * پر کردن فیلدهایی که با ستاره مشخص شده ضروری است</p>
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+        </div>
+    </form>
+</div>
+<!--form--------------------------------------------------------------------------------------->
+</body>
+</html>
