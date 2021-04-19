@@ -1,0 +1,291 @@
+@font-face {
+    font-family: Yekan Bakh;
+    font-weight: normal;
+    src: url('../font/Yekan Bakh Regular.ttf');
+}
+
+* {
+    font-family: Yekan Bakh;
+    direction: rtl;
+}
+
+body {
+    background-color: #F5F7FA;
+}
+
+.swiper-slide img:hover,
+.swiper-slide.d-flex.justify-content-center.swiper-slide-active {
+    filter: invert(56%) sepia(56%) saturate(562%) hue-rotate( 127deg) brightness(95%) contrast(97%);
+}
+
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after,
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+    font-size: 12px !important;
+    color: white;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background: #D4E0EF;
+    border-radius: 50px;
+    width: 40px;
+    height: 27px !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background-color: #1ABBB0;
+}
+
+.title__style {
+    color: #0B3A42;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.title__style--box {
+    color: #0B3A42;
+    font-weight: bold;
+}
+
+.text__style {
+    font-size: 15px;
+    color: #155A6D;
+}
+
+.width__stle {
+    width: 55rem !important;
+    display: table;
+    margin: auto;
+}
+
+.market__categories,
+.meeting__structure {
+    background: #1fc5b91f;
+    padding: 3rem;
+}
+
+.box-style {
+    background: white;
+    padding: 10px;
+    border: 1px solid #CFF2F2;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.box-style:hover {
+    border: 1px solid #00BABA;
+    transition: 0.5s ease;
+}
+
+.english__text--style {
+    color: #20C5BA;
+}
+
+.tip {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    background: transparent;
+    border: 10px solid #20C5BA;
+}
+
+.tip-up {
+    top: -20px;
+    right: 10px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+
+.dialogbox .body {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 10px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #20C5BA;
+}
+
+.body .message {
+    min-height: 30px;
+    border-radius: 3px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #797979;
+}
+
+.tab__title--once {
+    color: #0E7571;
+    font-size: 24px;
+}
+
+.tab__title--second {
+    color: #20C5BA;
+    font-size: 18px;
+}
+
+.tab__text {
+    color: #697D9A;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #042623 !important;
+    font-size: 18px !important;
+    background-color: #0d6efd00 !important;
+    border-bottom: 3px solid #20C5BA;
+    border-radius: 0px
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: #E7ECF4 !important;
+    border: 1px solid transparent;
+    border-top-right-radius: .25rem;
+    border-top-left-radius: .25rem;
+    margin: 0px 2px !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff !important;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.tab-pane.fade.tab__style.active.show {
+    display: block;
+    border: 1px solid #7070704f;
+    border-radius: 4px;
+    padding: 3rem;
+}
+
+.accordion__box {
+    padding: 10px;
+    border: 1px solid #70707030;
+    border-radius: 16px;
+    background: #F6F8FB;
+    margin-bottom: 10px;
+}
+
+::marker {
+    color: #20C5BA;
+}
+
+.box__info {
+    border: 2px solid #7070702e;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: none;
+    background-color: white;
+}
+
+.header__section {
+    background-image: url('../image/Group 13599.png');
+    background-position: bottom;
+    background-size: cover;
+    height: 70vh;
+}
+
+.header__title {
+    color: #FAFAFA;
+    font-size: 60px;
+    text-align: center;
+}
+
+span.navbar-text a {
+    color: white;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a.nav-link {
+    color: white;
+}
+
+.menu__sabtenam {
+    background: #03343238;
+    padding: 5px 25px;
+    border-radius: 15px;
+}
+
+button.btn.btn_send {
+    background: #EEF2F7;
+    outline: none;
+    box-shadow: none;
+    color: #9DB0CB;
+    width: 150px;
+}
+
+button.btn.btn_send:hover {
+    background: #009191;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    width: 150px;
+}
+
+.form__title {
+    color: #155A6D;
+    font-size: 22px;
+    border-right: 2px solid #155A6D;
+}
+
+.form__style {
+    background: #F5F7FA;
+    padding: 20px 0px 20px 20px;
+    border-radius: 16px;
+}
+
+.file {
+    direction: ltr;
+    background: white;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid #DBE4F2;
+}
+
+
+/* media-------------------------------------------- */
+
+@media (min-width: 320px) and (max-width: 567px) {
+    .width__stle {
+        width: auto !important;
+    }
+    .market__categories,
+    .meeting__structure {
+        padding: 3rem 0px !important;
+    }
+    .box-style {
+        margin-bottom: 1rem !important;
+    }
+    button.btn__swiper.active {
+        background: #20C5BA !important;
+        padding: 10px;
+        border-radius: 16px;
+        color: white !important;
+        outline: none;
+        border: 1px solid #20C5BA;
+    }
+    button.btn__swiper {
+        background: #D4DFEE !important;
+        padding: 10px;
+        border-radius: 16px;
+        color: white !important;
+        outline: none;
+        border: 1px solid #D4DFEE;
+        color: #697D9A !important;
+    }
+    .english__text--style {
+        font-size: 14px;
+    }
+}
